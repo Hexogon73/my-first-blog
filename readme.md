@@ -21,3 +21,14 @@ python manage.py runserver
 
 #Создание приложения
 python manage.py startapp blog
+
+#Создаём таблицы моделей в базе данных
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+#Создание суперпользователя
+python manage.py createsuperuser
+
+admin
+admin@admin.com
+#edcvfr4
