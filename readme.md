@@ -7,7 +7,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 
 #Создание структуры проекта
-(myvenv) C:\Users\Name\djangomen> django-admin.exe startproject mysite .
+django-admin.exe startproject mysite .
 
 1 manage.py - это другой скрипт, который помогает с управлением сайтом. С помощью него, можно запустить веб-сервер.
 2 settings.py - содержит настройки веб-сайта.
@@ -15,3 +15,9 @@ pip install -r requirements.txt
 
 #Создание БД sqlite3
 python manage.py migrate
+
+#Запуск веб-сервера
+python manage.py runserver
+
+#Создание приложения
+python manage.py startapp blog
