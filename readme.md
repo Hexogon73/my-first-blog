@@ -41,3 +41,11 @@ admin admin@admin.com
 
 git remote add origin https://github.com/Hexogon73/my-first-blog.git
 git push -u origin master
+
+# Обновляем фаилы в директории PythonAnywhere
+
+cd pylucky92.pythonanywhere.com git pull
+
+# Обновить статичные фаилы(типа css)
+
+cd pylucky92.pythonanywhere.com workon pylucky92.pythonanywhere.com
