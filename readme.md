@@ -1,3 +1,7 @@
+# Программа обучения
+
+    https://tutorial.djangogirls.org/ru/
+
 # Виртуальное окружение
 
     python -m venv myvenv C:\Users\Name\djangomen> myvenv\Scripts\activate
